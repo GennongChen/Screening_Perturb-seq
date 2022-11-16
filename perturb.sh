@@ -95,7 +95,7 @@ do
     output_dir_name=/home/chengennong/project/ylp/Science2022/perturb/donor/souporcell/$sample_id
     cat << EOF > /home/chengennong/project/ylp/Science2022/perturb/scripts/${sample_id}_souporcell.sh
     export PATH="/home/chengennong/anaconda3/envs/souporcell/bin/:\$PATH" 
-    cd /home/chengennong/project/ylp/Science2022/perturb/souporcell
+    cd /home/chengennong/project/ylp/Science2022/perturb/donor/souporcell
     /home/chengennong/biosoft/souporcell/souporcell_pipeline.py \
         -i $bam \
         -b $bc_csv \
